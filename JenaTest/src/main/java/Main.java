@@ -1,3 +1,5 @@
+package main.java;
+
 import org.apache.jena.graph.Graph;
 import org.apache.jena.propertytable.graph.GraphCSV;
 import org.apache.jena.propertytable.lang.CSV2RDF;
@@ -16,7 +18,7 @@ public class Main
     public static void staticFileTest()
     {
         FileManager.get().addLocatorClassLoader(Main.class.getClassLoader());
-        Model model = FileManager.get().loadModel("C:\\Users\\Jakob\\Documents\\JenaTest\\src\\data.rdf");
+        Model model = FileManager.get().loadModel(Main.class.getResource("/main/resources/data.rdf").getFile());
 
         String queryStr = "" +
                 "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
@@ -39,7 +41,7 @@ public class Main
             {
                 QuerySolution result = rs.nextSolution();
                 System.out.print(result.getLiteral("me"));
-                System.out.println(" knows " + result.get("knowscount"));
+                System.out.println(" knows " + result.get("knowscount").asLiteral().getInt());
             }
         }
         finally
@@ -52,22 +54,52 @@ public class Main
     public static void csvTest()
     {
         CSV2RDF.init();
-        final String csvPath = "file:///C:/Users/Jakob/Desktop/test.csv";
+        final String csvPath = Main.class.getResource("/main/resources/population.csv").getFile();
         Graph g = new GraphCSV(csvPath);
         Model csvModel = ModelFactory.createModelForGraph(g);
-        String queryStr = "" +
+        /*String queryStr = "" +
                 "PREFIX csv: <"+csvPath+"#> " +
-                "SELECT ?code ?name ?year ?pop " +
+                "SELECT ?name ?year ?pop " +
                 "WHERE { " +
                 " ?stadt csv:LAU2_CODE ?code ." +
                 " ?stadt csv:LAU2_NAME ?name ." +
                 " ?stadt csv:YEAR ?year ." +
                 " ?stadt csv:POP_TOTAL ?pop ." +
-                " FILTER (?pop > 50000)" +
-                "}" +
-                "ORDER BY DESC (?pop)";
+                " FILTER (?pop > 0)" +
+                "} " +
+                "GROUP BY ?name ?year ?pop " +
+                "ORDER BY DESC (?pop)";*/
+        String queryStrMax = "" +
+                "PREFIX csv: <"+csvPath+"#> " +
+                "SELECT ?year ?name2 ?pop2 " +
+                "WHERE {" +
+                " ?stadt csv:YEAR ?year ." +
+                " ?stadt csv:LAU2_NAME ?name2 ." +
+                " ?stadt csv:POP_TOTAL ?pop2 ." +
+                " FILTER(?name2 = ?name && ?pop2 = ?max)" +
+                " {" +
+                "  SELECT ?name (MAX(?pop) AS ?max) " +
+                "  WHERE { " +
+                "   ?stadt csv:LAU2_CODE ?code ." +
+                "   ?stadt csv:LAU2_NAME ?name ." +
+                "   ?stadt csv:POP_TOTAL ?pop ." +
+                "  } " +
+                "  GROUP BY ?name " +
+                "  ORDER BY DESC (?max)" +
+                " }" +
+                "}";
 
-        Query query = QueryFactory.create(queryStr);
+        String sumQueryStr = "" +
+                "PREFIX csv: <"+csvPath+"#> " +
+                "SELECT ?year (SUM(?pop) AS ?sumpop) " +
+                " WHERE {" +
+                "  ?stadt csv:YEAR ?year ;" +
+                "  csv:POP_TOTAL ?pop ." +
+                " }" +
+                " GROUP BY ?year " +
+                " ORDER BY DESC (?sumpop)";
+
+        Query query = QueryFactory.create(sumQueryStr);
         QueryExecution exec = QueryExecutionFactory.create(query, csvModel);
         try
         {
@@ -76,9 +108,9 @@ public class Main
             {
                 QuerySolution result = rs.nextSolution();
                 System.out.println
-                (   result.getLiteral("name").getString() + ": "
-                  + result.getLiteral("year").getString() + " - "
-                  + result.getLiteral("pop").getInt()
+                (   result.getLiteral("year").getString() + ": "
+                  //+ result.getLiteral("year").getString() + " -> "
+                  + result.getLiteral("sumpop").getInt()
                 );
             }
         }
