@@ -132,10 +132,10 @@ public class Main
             {
                 communeResource.addProperty(model.createProperty(HAS_YEAR),
                         model.createResource()
-                            .addProperty(model.createProperty(YEAR), String.valueOf(year.getYear()))
-                            .addProperty(model.createProperty(POP_TOTAL), String.valueOf(year.getPopulation()))
-                            .addProperty(model.createProperty(M_UNEMPLOYED), String.valueOf(year.getMUnemployed()))
-                            .addProperty(model.createProperty(W_UNEMPLOYED), String.valueOf(year.getWUnemployed()))
+                            .addLiteral(model.createProperty(YEAR), year.getYear())
+                            .addLiteral(model.createProperty(POP_TOTAL), year.getPopulation())
+                            .addLiteral(model.createProperty(M_UNEMPLOYED), year.getMUnemployed() == -1 ? "NDEF" : year.getMUnemployed())
+                            .addLiteral(model.createProperty(W_UNEMPLOYED), year.getWUnemployed() == -1 ? "NDEF" : year.getWUnemployed())
                 );
             }
 
