@@ -1,64 +1,91 @@
-package main.java;
+package main.test;
 
-import org.apache.jena.datatypes.RDFDatatype;
+import main.java.Commune;
+import main.java.PopulationYear;
 import org.apache.jena.graph.Graph;
 import org.apache.jena.propertytable.graph.GraphCSV;
 import org.apache.jena.propertytable.lang.CSV2RDF;
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.RDFList;
 import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.rdf.model.impl.PropertyImpl;
-import org.apache.jena.sparql.vocabulary.FOAF;
 import org.apache.jena.util.FileManager;
-import org.apache.jena.vocabulary.VCARD;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Main
 {
     public static void main(String[] args) throws IOException
     {
-        testRdf();
+        //convertCSV();
+        //testRdf();
+        uploadRdf();
+    }
+
+    public static void uploadRdf()
+    {
+        String serviceUri = "http://localhost:3030/gemeinden";
+        DatasetAccessor accessor = DatasetAccessorFactory.createHTTP(serviceUri);
+        String path = Main.class.getResource("/main/resources/pop.rdf").getFile();
+        FileManager.get().addLocatorClassLoader(Main.class.getClassLoader());
+        Model model = FileManager.get().loadModel(path);
+
+        accessor.putModel(model);
+        //accessor.add("population",model);
+        //accessor.putModel(model);
+        //accessor.deleteModel("http://jku.at/gemeinden/");
     }
 
     public static void testRdf()
     {
-        String path = "C:\\Users\\Jakob\\Desktop\\pop.rdf";
+        String path = Main.class.getResource("/main/resources/pop.rdf").getFile();
         FileManager.get().addLocatorClassLoader(Main.class.getClassLoader());
         Model model = FileManager.get().loadModel(path);
 
         String sumQueryStr = "" +
             "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
-            "PREFIX gemeinden: <http://jku.at/gemeinden/>" +
-            "SELECT ?name" +
+            "PREFIX gemeinden: <http://jku.at/gemeinden/> " +
+            "SELECT ?name ?year ?pop ?mUnEmp ?wUnEmp" +
             " WHERE {" +
-            "  ?gemeinde gemeinden:lau2name ?name ." +
+            "  ?gemeinde gemeinden:lau2name ?name ;" +
+            "            gemeinden:hasYear  ?hasYear ." +
+            "  ?hasYear  gemeinden:year     ?year ;" +
+            "            gemeinden:population ?pop ;" +
+            "            gemeinden:mUnemployed ?mUnEmp ;" +
+            "            gemeinden:wUnemployed ?wUnEmp ." +
+            //"  FILTER (?mUnEmp > 0 && ?wUnEmp > 0)" +
             " }" +
-            " ORDER BY ASC (?name)";
+            " ORDER BY ASC (?name) (?year)";
 
         Query query = QueryFactory.create(sumQueryStr);
         QueryExecution exec = QueryExecutionFactory.create(query, model);
         try
         {
             ResultSet rs = exec.execSelect();
+            String name = "";
             while(rs.hasNext())
             {
                 QuerySolution result = rs.nextSolution();
-                System.out.println
-                        (   result.getLiteral("name").getString() + ": "
-                                //+ result.getLiteral("year").getString() + " -> "
-                               // + result.getLiteral("code").getInt()
+                if(!name.equals(result.getLiteral("name").getString()))
+                {
+                    name = result.getLiteral("name").getString();
+                    System.out.println(name);
+                }
+                if(result.getLiteral("year").getInt() >= 2004)
+                    System.out.println
+                        (
+                            "\t"
+                            + result.getLiteral("year").getString() + " ->"
+                            + result.getLiteral("pop").getString() + " => w: "
+                            + result.getLiteral("wUnEmp").getString() + " => m: "
+                            + result.getLiteral("mUnEmp").getString()
                         );
             }
         }
@@ -88,10 +115,13 @@ public class Main
 
         final Model model = ModelFactory.createDefaultModel();
         model.setNsPrefix("gemeinden",GEMEINDEN_URI+"/");
-        Map<String,Commune> communes = readCommunes();
+        Map<String,Commune> communeMap = readCommunes();
+
+        for(int i = 2004; i <= 2014; i++)
+            readPopulationYears(i, communeMap);
 
         Resource root = model.createResource(GEMEINDEN_URI);
-        for (Commune c : communes.values())
+        for (Commune c : communeMap.values())
         {
             Resource communeResource = model.createResource()
                     .addProperty(model.createProperty(LAU2_CODE_URI), c.getLau2_Code())
@@ -104,12 +134,14 @@ public class Main
                         model.createResource()
                             .addProperty(model.createProperty(YEAR), String.valueOf(year.getYear()))
                             .addProperty(model.createProperty(POP_TOTAL), String.valueOf(year.getPopulation()))
+                            .addProperty(model.createProperty(M_UNEMPLOYED), String.valueOf(year.getMUnemployed()))
+                            .addProperty(model.createProperty(W_UNEMPLOYED), String.valueOf(year.getWUnemployed()))
                 );
             }
 
             root.addProperty(model.createProperty(GEMEINDE_URI), communeResource);
         }
-        FileOutputStream fs = new FileOutputStream("C:\\Users\\Jakob\\Desktop\\pop.rdf");
+        FileOutputStream fs = new FileOutputStream("C:\\Users\\Jakob\\Documents\\dke\\JenaTest\\src\\main\\resources\\pop.rdf");
         model.write(fs);
         fs.flush();
         fs.close();
@@ -125,6 +157,45 @@ public class Main
                 System.out.println("\t" + year.getYear() + ": " + year.getPopulation());
             }
         }
+    }
+
+    public static List<Commune> readPopulationYears(int year, Map<String, Commune> communes) throws IOException
+    {
+        final String CSV_DELIMINATOR = ";";
+        final int COL_LAU2CODE_AND_LAU2NAME = 0;
+        final int COL_UNEMPLOYED_W = 1;
+        final int COL_UNEMPLOYED_M = 4;
+        final String csvPath = Main.class.getResource("/main/resources/arbeitslose_"+year+".csv").getFile().substring(1);
+        int lineNr = 0;
+
+        for(String line : Files.readAllLines(Paths.get(csvPath)))
+        {
+            lineNr++;
+            try
+            {
+                if (!(line.charAt(0) >= '0' && line.charAt(0) <= '9'))
+                    continue;
+                String[] cols = line.split(CSV_DELIMINATOR);
+                String lau2code = cols[COL_LAU2CODE_AND_LAU2NAME].split("-")[0];
+                String lau2name = cols[COL_LAU2CODE_AND_LAU2NAME].split("-")[1];
+                int unemployedW = Integer.parseInt(cols[COL_UNEMPLOYED_W].replace(".",""));
+                int unemployedM = Integer.parseInt(cols[COL_UNEMPLOYED_M].replace(".",""));
+
+                Commune c = communes.get(lau2code);
+                if(c == null) continue;
+                c.getYears().stream().filter(py -> py.getYear() == year).forEach(py ->
+                {
+                    py.setWUnemployed(unemployedW);
+                    py.setMUnemployed(unemployedM);
+                });
+            }
+            catch(Exception ex)
+            {
+                System.out.println("Failed to parse line " + lineNr + ": " + ex.getMessage());
+            }
+        }
+
+        return communes.values().stream().collect(Collectors.toList());
     }
 
     public static Map<String, Commune> readCommunes() throws IOException

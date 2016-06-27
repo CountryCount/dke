@@ -1,0 +1,637 @@
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Braunau 401;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+40401-ALTHEIM;62;16;36,0%;76;14;22,9%;137;30;28,5%
+40402-ASPACH;27;1;5,2%;32;1;3,5%;59;2;4,3%
+40403-AUERBACH;6;1;10,8%;6;-1;-16,0%;12;-1;-4,1%
+40404-BRAUNAU AM INN;315;47;17,4%;364;21;6,2%;680;68;11,2%
+40405-BURGKIRCHEN;31;5;18,6%;21;1;6,0%;51;6;13,2%
+40406-EGGELSBERG;22;-2;-7,3%;25;-2;-8,2%;47;-4;-7,8%
+40407-FELDKIRCHEN BEI MATTIGHOFEN;16;6;65,3%;17;1;5,6%;34;7;27,8%
+40408-FRANKING;15;6;74,0%;9;1;18,1%;24;8;46,9%
+40409-GERETSBERG;11;2;16,5%;12;1;5,8%;23;2;10,7%
+40410-GILGENBERG AM WEILHART;9;-1;-5,9%;13;3;34,2%;22;3;14,0%
+40411-HAIGERMOOS;8;1;19,3%;7;3;67,3%;16;4;37,8%
+40412-HANDENBERG;9;-1;-13,3%;17;1;3,6%;25;-1;-2,9%
+40413-HELPFAU-UTTENDORF;52;1;2,1%;66;11;20,0%;118;12;11,4%
+40414-HOCHBURG-ACH;21;1;5,5%;12;-5;-29,6%;33;-4;-10,7%
+40415-HOEHNHART;12;3;31,8%;24;0;0,4%;35;3;9,0%
+40416-JEGING;10;2;29,8%;6;1;20,3%;17;3;25,9%
+40417-KIRCHBERG BEI MATTIGHOFEN;12;3;33,7%;16;2;17,7%;27;5;24,0%
+40418-LENGAU;45;-1;-2,4%;59;7;13,0%;104;6;5,8%
+40419-LOCHEN;20;0;1,2%;22;-2;-7,9%;43;-2;-3,7%
+40420-MARIA SCHMOLLN;12;2;17,1%;16;1;9,4%;28;3;12,6%
+40421-MATTIGHOFEN;104;-5;-4,5%;98;-8;-7,4%;202;-13;-5,9%
+40422-MAUERKIRCHEN;42;9;28,3%;45;8;21,1%;87;17;24,5%
+40423-MINING;10;1;6,4%;6;2;46,7%;15;2;18,1%
+40424-MOOSBACH;10;3;35,6%;16;3;25,5%;26;6;29,2%
+40425-MOOSDORF;18;2;11,5%;17;3;20,6%;35;5;15,8%
+40426-MUNDERFING;34;3;9,5%;39;4;11,0%;72;7;10,3%
+40427-NEUKIRCHEN AN DER ENKNACH;23;5;26,1%;20;2;8,4%;43;6;17,1%
+40428-OSTERMIETHING;31;5;19,4%;32;4;12,5%;62;9;15,8%
+40429-PALTING;6;-2;-24,7%;7;1;23,9%;13;-1;-4,4%
+40430-PERWANG AM GRABENSEE;6;0;4,5%;10;1;13,7%;16;1;10,1%
+40431-PFAFFSTAETT;11;1;9,8%;17;1;7,6%;28;2;8,4%
+40432-PISCHELSDORF AM ENGELBACH;14;0;-3,0%;23;3;14,7%;37;3;7,5%
+40433-POLLING IM INNKREIS;10;2;25,0%;9;2;23,8%;19;4;24,4%
+40434-ROSZBACH;11;2;16,1%;11;0;-3,5%;23;1;5,4%
+40435-SANKT GEORGEN AM FILLMANNSBACH;5;2;63,9%;2;-2;-51,2%;7;0;1,3%
+40436-SANKT JOHANN AM WALDE;20;4;27,5%;31;-1;-4,1%;52;3;6,2%
+40437-SANKT PANTALEON;41;3;6,9%;59;7;14,0%;100;10;11,0%
+40438-SANKT PETER AM HART;25;1;5,2%;21;2;11,7%;46;3;8,0%
+40439-SANKT RADEGUND;4;-1;-18,2%;4;-2;-28,8%;8;-3;-24,2%
+40440-SANKT VEIT IM INNKREIS;5;-1;-18,7%;4;2;57,6%;9;0;4,6%
+40441-SCHALCHEN;52;11;25,4%;59;5;8,3%;111;15;15,7%
+40442-SCHWAND IM INNKREIS;8;3;66,7%;5;1;27,3%;13;4;49,5%
+40443-TARSDORF;16;4;31,3%;11;-3;-19,2%;27;1;4,2%
+40444-TREUBACH;6;0;1,4%;4;0;5,0%;10;0;2,7%
+40445-UEBERACKERN;4;-2;-29,0%;5;2;89,7%;8;1;8,8%
+40446-WENG IM INNKREIS;9;-3;-25,0%;11;4;56,3%;20;1;5,6%
+Gesamt;1.239;138;12,5%;1.383;100;7,8%;2.622;238;10,0%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Eferding 402;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+40501-ALKOVEN;38;3;8,0%;52;11;27,8%;90;14;18,6%
+40502-ASCHACH AN DER DONAU;19;1;4,1%;35;3;7,8%;54;3;6,5%
+40503-EFERDING;48;8;20,4%;62;8;15,6%;109;16;17,7%
+40504-FRAHAM;17;0;1,5%;21;4;25,3%;37;4;13,4%
+40505-HAIBACH OB DER DONAU;7;1;8,0%;10;0;4,4%;17;1;5,9%
+40506-HARTKIRCHEN;22;3;12,6%;27;-1;-3,9%;49;1;3,0%
+40507-HINZENBACH;13;3;27,0%;18;7;62,2%;32;10;45,2%
+40508-PRAMBACHKIRCHEN;19;0;0,4%;24;1;2,5%;43;1;1,6%
+40509-PUPPING;17;4;30,1%;20;2;11,6%;37;6;19,2%
+40510-SANKT MARIENKIRCHEN AN DER POLSENZ;11;-2;-16,8%;24;6;31,3%;35;3;10,8%
+40511-SCHARTEN;14;1;5,6%;23;4;19,6%;38;5;13,9%
+40512-STROHEIM;9;2;19,8%;11;-1;-6,8%;21;1;3,4%
+Gesamt;234;22;10,2%;326;44;15,6%;561;66;13,3%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Freistadt 403;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+40601-FREISTADT;105;12;12,5%;121;8;7,2%;226;20;9,6%
+40602-GRUENBACH;13;2;15,8%;23;4;21,9%;37;6;19,6%
+40603-GUTAU;19;2;12,1%;26;3;13,7%;46;5;13,0%
+40604-HAGENBERG IM MUEHLKREIS;17;-2;-10,1%;18;2;14,1%;35;0;0,7%
+40605-HIRSCHBACH IM MUEHLKREIS;7;1;16,2%;4;-1;-15,1%;10;0;2,5%
+40606-KALTENBERG;3;-1;-20,8%;6;0;-2,5%;10;-1;-9,4%
+40607-KEFERMARKT;13;0;1,3%;14;-1;-8,3%;27;-1;-3,9%
+40608-KOENIGSWIESEN;23;7;41,1%;31;1;1,6%;54;7;15,1%
+40609-LASBERG;16;1;8,4%;28;1;3,4%;44;2;5,2%
+40610-LEOPOLDSCHLAG;5;0;-7,5%;12;-5;-28,3%;17;-5;-23,0%
+40611-LIEBENAU;12;1;12,8%;17;3;23,5%;28;5;18,8%
+40612-NEUMARKT IM MUEHLKREIS;23;5;30,0%;25;6;29,0%;48;11;29,5%
+40613-PIERBACH;9;0;-2,7%;11;1;5,8%;20;0;1,7%
+40614-PREGARTEN;42;4;11,4%;41;1;1,7%;83;5;6,4%
+40615-RAINBACH IM MUEHLKREIS;25;-2;-8,1%;31;0;-0,8%;56;-2;-4,1%
+40616-SANDL;10;-2;-16,9%;25;3;11,3%;35;0;1,2%
+40617-SANKT LEONHARD BEI FREISTADT;11;5;70,0%;7;0;-2,3%;18;5;32,3%
+40618-SANKT OSWALD BEI FREISTADT;25;1;3,1%;28;5;24,0%;53;6;13,1%
+40619-SCHOENAU IM MUEHLKREIS;10;0;0,0%;13;1;7,6%;23;1;4,1%
+40620-TRAGWEIN;22;-2;-9,8%;23;-1;-4,5%;44;-3;-7,1%
+40621-UNTERWEISZENBACH;14;2;18,4%;18;0;0,5%;32;2;7,6%
+40622-UNTERWEITERSDORF;12;2;23,9%;19;-1;-3,8%;31;2;5,4%
+40623-WALDBURG;10;1;7,8%;7;0;-3,5%;17;1;3,0%
+40624-WARTBERG OB DER AIST;20;-5;-18,6%;33;9;36,0%;53;4;8,5%
+40625-WEITERSFELDEN;11;4;48,9%;12;1;8,0%;23;5;24,0%
+40626-WINDHAAG BEI FREISTADT;7;-2;-24,6%;19;2;10,0%;27;-1;-2,2%
+40627-BAD ZELL;17;1;7,8%;21;1;4,5%;39;2;5,9%
+Gesamt;502;34;7,3%;634;41;6,9%;1.136;75;7,1%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Gmunden (mit ZWS) 404;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+40701-ALTMUENSTER;67;3;4,3%;80;3;4,0%;147;6;4,1%
+40702-BAD GOISERN;65;-2;-2,2%;81;12;17,9%;146;11;8,0%
+40703-BAD ISCHL;141;10;7,8%;193;11;5,8%;334;21;6,6%
+40704-EBENSEE;63;-5;-6,9%;109;7;7,0%;173;3;1,5%
+40705-GMUNDEN;147;13;9,6%;214;22;11,4%;361;35;10,7%
+40706-GOSAU;25;2;9,6%;19;3;22,7%;43;6;14,8%
+40707-GRUENAU IM ALMTAL;17;2;11,4%;25;2;8,7%;42;4;9,8%
+40708-GSCHWANDT;21;3;19,9%;22;0;0,0%;43;3;8,7%
+40709-HALLSTATT;11;0;3,1%;9;1;12,0%;20;1;7,0%
+40710-KIRCHHAM;15;4;39,7%;18;0;2,4%;33;5;16,4%
+40711-LAAKIRCHEN;113;7;6,5%;152;19;14,6%;265;26;11,0%
+40712-OBERTRAUN;6;-1;-7,5%;7;2;30,0%;13;1;8,6%
+40713-OHLSDORF;41;2;5,3%;47;6;14,7%;88;8;10,1%
+40714-PINSDORF;40;-3;-7,9%;49;-4;-6,9%;88;-7;-7,3%
+40715-ROITHAM;15;1;6,4%;15;-1;-3,8%;30;0;1,1%
+40716-SANKT KONRAD;7;2;40,4%;12;3;25,4%;19;4;30,3%
+40717-SANKT WOLFGANG IM SALZKAMMERGUT;37;1;1,8%;29;2;8,3%;66;3;4,6%
+40718-TRAUNKIRCHEN;16;1;10,1%;18;0;-1,4%;34;1;3,6%
+40719-SCHARNSTEIN;40;2;5,0%;45;-1;-2,9%;85;1;0,7%
+40720-VORCHDORF;76;5;7,5%;120;9;7,9%;196;14;7,7%
+Gesamt;962;49;5,3%;1.264;97;8,3%;2.227;145;7,0%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Grieskirchen 406;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+40801-AISTERSHEIM;6;-2;-23,3%;9;0;-1,8%;15;-2;-11,3%
+40802-BAD SCHALLERBACH;37;6;17,6%;59;8;16,7%;96;14;17,1%
+40803-BRUCK-WAASEN;16;4;39,8%;17;1;4,6%;33;5;18,8%
+40804-ESCHENAU IM HAUSRUCKKREIS;5;1;17,6%;11;-2;-16,5%;16;-1;-8,1%
+40805-GALLSPACH;31;-2;-5,1%;55;10;22,3%;87;8;10,8%
+40806-GASPOLTSHOFEN;28;2;8,7%;40;5;13,1%;68;7;11,2%
+40807-GEBOLTSKIRCHEN;11;0;-2,2%;17;1;7,3%;28;1;3,4%
+40808-GRIESKIRCHEN;62;4;7,6%;81;11;15,5%;142;15;11,9%
+40809-HAAG AM HAUSRUCK;21;4;26,4%;19;0;-1,3%;40;4;11,3%
+40810-HEILIGENBERG;2;0;3,7%;5;1;22,0%;7;1;15,6%
+40811-HOFKIRCHEN AN DER TRATTNACH;16;5;50,8%;15;5;46,8%;32;10;48,8%
+40812-KALLHAM;18;6;49,7%;34;3;8,5%;52;9;20,0%
+40813-KEMATEN AM INNBACH;12;1;10,7%;19;5;31,6%;31;6;22,5%
+40814-MEGGENHOFEN;9;0;-2,7%;11;0;2,4%;20;0;0,0%
+40815-MICHAELNBACH;5;-2;-25,6%;8;1;11,4%;13;-1;-6,5%
+40816-NATTERNBACH;17;1;7,9%;30;2;7,1%;47;3;7,4%
+40817-NEUKIRCHEN AM WALDE;11;-1;-10,3%;24;2;9,5%;35;1;2,5%
+40818-NEUMARKT IM HAUSRUCKKREIS;21;4;20,2%;24;1;6,2%;45;5;12,3%
+40819-PEUERBACH;19;-1;-4,6%;27;1;2,8%;46;0;-0,4%
+40820-POETTING;2;0;7,7%;2;0;16,7%;4;0;11,4%
+40821-POLLHAM;7;3;64,7%;7;1;8,3%;14;3;31,7%
+40822-PRAM;12;-6;-31,3%;23;-1;-3,1%;35;-6;-15,0%
+40823-ROTTENBACH;10;-3;-23,3%;11;1;11,5%;20;-2;-8,4%
+40824-SANKT AGATHA;13;-2;-13,6%;14;3;24,8%;27;1;3,2%
+40825-SANKT GEORGEN BEI GRIESKIRCHEN;12;4;53,3%;7;1;17,9%;18;5;38,4%
+40826-SANKT THOMAS;4;1;31,4%;4;1;15,4%;8;1;23,0%
+40827-SCHLUESZLBERG;26;3;14,6%;34;6;20,8%;60;9;18,1%
+40828-STEEGEN;6;2;34,0%;13;2;24,0%;18;4;27,0%
+40829-TAUFKIRCHEN AN DER TRATTNACH;12;1;9,1%;17;4;27,8%;29;5;19,3%
+40830-TOLLET;5;0;3,8%;5;0;-1,5%;10;0;0,9%
+40831-WAIZENKIRCHEN;30;7;28,4%;32;6;22,5%;62;13;25,3%
+40832-WALLERN AN DER TRATTNACH;20;3;19,1%;29;5;19,7%;49;8;19,5%
+40833-WEIBERN;11;0;2,4%;13;2;14,2%;24;2;8,6%
+40834-WENDLING;6;-1;-14,8%;4;0;2,0%;10;-1;-8,4%
+Gesamt;521;44;9,2%;721;83;13,1%;1.241;127;11,4%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Kirchdorf/Krems 407;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+40901-EDLBACH;5;0;-1,6%;10;3;37,9%;15;3;21,3%
+40902-GRUENBURG;43;-3;-6,6%;44;-3;-6,0%;88;-6;-6,3%
+40903-HINTERSTODER;7;-2;-19,0%;8;0;-3,0%;15;-2;-11,2%
+40904-INZERSDORF IM KREMSTAL;14;2;17,9%;19;4;23,3%;34;6;21,0%
+40905-KIRCHDORF AN DER KREMS;47;1;2,2%;64;4;6,5%;111;5;4,6%
+40906-KLAUS AN DER PYHRNBAHN;9;-3;-22,4%;9;-2;-22,0%;17;-5;-22,2%
+40907-KREMSMUENSTER;65;10;17,6%;71;-4;-5,2%;136;6;4,5%
+40908-MICHELDORF IN OBEROESTERREICH;66;2;3,1%;69;-1;-0,7%;135;2;1,1%
+40909-MOLLN;26;0;-0,6%;30;-4;-10,8%;56;-4;-6,3%
+40910-NUSZBACH;18;0;-1,8%;18;3;16,9%;37;2;6,8%
+40911-OBERSCHLIERBACH;4;2;54,5%;3;0;0,0%;7;2;26,9%
+40912-PETTENBACH;56;7;13,2%;70;2;2,4%;126;8;6,9%
+40913-RIED IM TRAUNKREIS;20;1;4,8%;31;2;5,9%;52;3;5,5%
+40914-ROSENAU AM HENGSTPASZ;9;0;4,9%;7;-1;-9,2%;16;0;-1,6%
+40915-ROSZLEITHEN;18;-3;-14,3%;23;5;27,8%;41;2;4,7%
+40916-SANKT PANKRAZ;3;-2;-37,7%;5;3;133,3%;7;1;15,6%
+40917-SCHLIERBACH;21;-2;-7,8%;29;8;37,9%;50;6;14,5%
+40918-SPITAL AM PYHRN;26;3;11,9%;26;1;3,0%;52;4;7,2%
+40919-STEINBACH AM ZIEHBERG;4;-1;-10,9%;9;3;50,7%;13;3;23,8%
+40920-STEINBACH AN DER STEYR;14;-5;-24,9%;24;4;21,5%;38;-1;-1,5%
+40921-VORDERSTODER;7;0;-5,5%;10;2;32,2%;17;2;12,9%
+40922-WARTBERG AN DER KREMS;29;-2;-7,8%;34;-1;-1,7%;63;-3;-4,6%
+40923-WINDISCHGARSTEN;24;2;9,0%;27;4;19,4%;51;6;14,3%
+Gesamt;536;7;1,2%;640;32;5,2%;1.176;39;3,4%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Linz 409;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+40101-LINZ;3.137;651;26,2%;4.638;935;25,3%;7.775;1.586;25,6%
+41601-ALBERNDORF IN DER RIEDMARK;24;2;6,8%;22;2;10,4%;46;4;8,5%
+41602-ALTENBERG BEI LINZ;17;4;32,3%;26;-1;-2,2%;43;4;9,3%
+41603-BAD LEONFELDEN;29;3;13,4%;33;10;41,9%;62;13;27,0%
+41604-EIDENBERG;9;2;35,0%;8;-1;-7,4%;17;2;10,6%
+41605-ENGERWITZDORF;39;4;10,8%;60;4;7,2%;99;8;8,5%
+41606-FELDKIRCHEN AN DER DONAU;34;11;49,1%;39;8;26,9%;73;19;36,2%
+41607-GALLNEUKIRCHEN;37;4;12,5%;53;4;7,9%;90;8;9,8%
+41608-GOLDWOERTH;5;0;0,0%;6;1;14,1%;11;1;7,6%
+41609-GRAMASTETTEN;26;5;21,1%;24;6;29,6%;50;10;25,1%
+41610-HAIBACH IM MUEHLKREIS;4;0;10,6%;2;-2;-45,3%;7;-2;-19,0%
+41611-HELLMONSOEDT;12;2;18,3%;22;6;38,7%;34;8;30,9%
+41612-HERZOGSDORF;13;1;9,0%;16;4;38,8%;29;5;23,4%
+41613-KIRCHSCHLAG BEI LINZ;9;-4;-31,1%;14;-2;-14,1%;23;-7;-21,9%
+41614-LICHTENBERG;8;2;33,3%;13;2;18,6%;21;4;24,0%
+41615-OBERNEUKIRCHEN;18;5;35,4%;19;0;1,4%;37;5;15,7%
+41616-OTTENSCHLAG IM MUEHLKREIS;1;-1;-30,4%;3;1;56,5%;4;1;13,0%
+41617-OTTENSHEIM;32;4;12,3%;40;8;23,3%;72;11;18,1%
+41618-PUCHENAU;28;5;19,9%;31;7;27,8%;59;11;24,0%
+41619-REICHENAU IM MUEHLKREIS;10;2;29,3%;9;2;21,6%;19;4;25,6%
+41620-REICHENTHAL;4;0;-5,9%;15;4;31,3%;19;3;21,1%
+41621-SANKT GOTTHARD IM MUEHLKREIS;5;-1;-19,0%;12;2;18,5%;17;1;3,5%
+41622-SCHENKENFELDEN;9;-1;-8,9%;6;0;2,9%;14;-1;-4,4%
+41623-SONNBERG IM MUEHLKREIS;6;3;94,1%;6;2;65,9%;11;5;78,7%
+41624-STEYREGG;29;-1;-3,9%;52;13;32,5%;80;12;16,7%
+41625-VORDERWEISZENBACH;11;0;-3,6%;14;2;17,4%;25;2;6,9%
+41626-WALDING;23;2;10,0%;29;7;34,1%;52;9;22,3%
+41627-ZWETTL AN DER RODL;7;-2;-19,8%;13;-1;-7,1%;20;-3;-12,2%
+Gesamt;3.585;700;24,3%;5.222;1.023;24,3%;8.806;1.723;24,3%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Perg 411;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+41101-ALLERHEILIGEN IM MUEHLKREIS;11;1;10,3%;9;1;13,3%;19;2;11,7%
+41102-ARBING;11;-3;-20,5%;12;-1;-7,5%;23;-4;-14,0%
+41103-BAUMGARTENBERG;11;1;8,0%;12;-1;-4,7%;23;0;1,1%
+41104-DIMBACH;4;-2;-27,4%;11;-1;-9,2%;15;-3;-15,4%
+41105-GREIN;32;2;6,8%;40;0;-1,0%;72;2;2,3%
+41106-KATSDORF;21;4;21,7%;24;2;7,6%;45;5;13,9%
+41107-KLAM;9;5;128,3%;8;-1;-8,3%;17;4;32,3%
+41108-BAD KREUZEN;15;3;26,8%;17;-6;-25,6%;32;-3;-7,7%
+41109-LANGENSTEIN;24;-1;-3,7%;26;-1;-1,9%;49;-1;-2,8%
+41110-LUFTENBERG AN DER DONAU;29;-2;-6,1%;32;1;2,4%;62;-1;-1,9%
+41111-MAUTHAUSEN;50;1;2,4%;72;4;6,2%;122;5;4,6%
+41112-MITTERKIRCHEN IM MACHLAND;12;-3;-19,1%;13;0;0,0%;25;-3;-10,5%
+41113-MUENZBACH;11;0;4,1%;15;-2;-13,0%;25;-2;-6,5%
+41114-NAARN IM MACHLANDE;28;1;2,1%;34;-7;-16,1%;62;-6;-8,7%
+41115-PABNEUKIRCHEN;11;-2;-18,0%;16;-5;-24,2%;27;-7;-21,8%
+41116-PERG;78;-5;-5,7%;113;9;8,7%;191;4;2,4%
+41117-RECHBERG;8;1;16,9%;6;-1;-15,6%;14;0;-0,6%
+41118-RIED IN DER RIEDMARK;28;3;13,5%;37;4;11,9%;65;7;12,6%
+41119-SANKT GEORGEN AM WALDE;15;-3;-16,6%;20;1;3,4%;35;-2;-6,1%
+41120-SANKT GEORGEN AN DER GUSEN;21;-9;-29,0%;38;3;8,0%;59;-6;-9,0%
+41121-SANKT NIKOLA AN DER DONAU;10;1;15,0%;15;0;-1,6%;25;1;4,2%
+41122-SANKT THOMAS AM BLASENSTEIN;4;-1;-16,1%;6;-1;-19,0%;10;-2;-17,9%
+41123-SAXEN;14;-1;-5,2%;14;-1;-7,2%;28;-2;-6,2%
+41124-SCHWERTBERG;58;6;12,1%;76;12;19,1%;133;18;15,9%
+41125-WALDHAUSEN IM STRUDENGAU;25;7;35,5%;33;-5;-13,4%;58;1;2,3%
+41126-WINDHAAG BEI PERG;7;-2;-17,1%;15;-1;-6,4%;22;-3;-10,3%
+Gesamt;545;4;0,8%;712;2;0,3%;1.257;7;0,5%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Ried 412;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+41201-ANDRICHSFURT;7;0;2,4%;7;-3;-26,5%;14;-2;-14,2%
+41202-ANTIESENHOFEN;14;0;0,6%;16;1;4,8%;30;1;2,8%
+41203-AUROLZMUENSTER;35;0;-0,2%;46;0;0,0%;81;0;-0,1%
+41204-EBERSCHWANG;27;3;12,4%;38;2;6,5%;66;5;8,9%
+41205-EITZING;6;1;17,9%;9;1;10,1%;15;2;12,9%
+41206-GEIERSBERG;5;2;87,1%;5;2;65,7%;10;4;75,8%
+41207-GEINBERG;14;-3;-19,8%;15;1;10,6%;28;-2;-6,4%
+41208-GURTEN;7;-2;-18,4%;14;0;-1,2%;20;-2;-7,6%
+41209-HOHENZELL;12;2;22,3%;21;3;14,2%;34;5;17,1%
+41210-KIRCHDORF AM INN;6;2;73,7%;4;2;60,0%;10;4;67,6%
+41211-KIRCHHEIM IM INNKREIS;5;0;7,1%;6;1;18,3%;11;1;12,9%
+41212-LAMBRECHTEN;12;2;15,7%;14;3;26,4%;25;4;21,2%
+41213-LOHNSBURG AM KOBERNAUSZERWALD;19;2;13,5%;26;0;0,3%;45;2;5,5%
+41214-MEHRNBACH;19;-1;-6,5%;24;1;4,0%;43;0;-1,0%
+41215-METTMACH;14;-3;-18,0%;27;2;8,4%;40;-1;-2,2%
+41216-MOERSCHWANG;1;0;15,4%;1;0;-5,6%;3;0;3,2%
+41217-MUEHLHEIM AM INN;2;-1;-21,9%;7;1;13,0%;9;0;2,0%
+41218-NEUHOFEN IM INNKREIS;20;2;9,9%;22;1;5,1%;42;3;7,2%
+41219-OBERNBERG AM INN;18;1;7,8%;29;1;3,9%;47;2;5,4%
+41220-ORT IM INNKREIS;13;-2;-13,4%;16;2;16,6%;30;0;0,8%
+41221-PATTIGHAM;6;0;-6,1%;7;-1;-8,0%;13;-1;-7,1%
+41222-PETERSKIRCHEN;5;2;51,3%;8;1;19,5%;13;3;30,2%
+41223-PRAMET;6;-2;-26,3%;7;0;-3,3%;13;-2;-15,0%
+41224-REICHERSBERG;20;0;1,3%;21;1;6,8%;41;2;4,0%
+41225-RIED IM INNKREIS;144;2;1,7%;195;10;5,4%;338;12;3,8%
+41226-SANKT GEORGEN BEI OBERNBERG AM INN;3;0;-2,7%;3;0;14,7%;6;0;5,6%
+41227-SANKT MARIENKIRCHEN AM HAUSRUCK;5;-2;-30,1%;9;3;50,0%;13;1;6,0%
+41228-SANKT MARTIN IM INNKREIS;17;1;3,6%;22;1;6,3%;39;2;5,2%
+41229-SCHILDORN;7;-1;-8,4%;12;-2;-13,5%;20;-3;-11,7%
+41230-SENFTENBACH;3;-1;-15,9%;11;0;-2,2%;14;-1;-5,6%
+41231-TAISKIRCHEN IM INNKREIS;20;-1;-3,9%;30;6;27,5%;50;6;12,5%
+41232-TUMELTSHAM;17;5;41,4%;16;4;31,1%;33;9;36,2%
+41233-UTZENAICH;14;2;20,0%;20;3;15,6%;34;5;17,3%
+41234-WALDZELL;15;1;3,4%;32;7;25,9%;47;7;17,7%
+41235-WEILBACH;4;0;0,0%;5;0;0,0%;9;0;0,0%
+41236-WIPPENHAM;3;-2;-42,6%;8;0;-2,2%;10;-2;-17,0%
+Gesamt;544;10;1,9%;753;54;7,8%;1.296;64;5,2%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Rohrbach 413;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+41301-AFIESL;1;1;166,7%;3;1;39,3%;5;2;61,8%
+41302-AHORN;5;1;29,2%;3;-1;-17,8%;8;1;6,5%
+41303-AIGEN IM MUEHLKREIS;16;2;15,4%;21;-2;-9,8%;37;0;-0,7%
+41304-ALTENFELDEN;16;5;43,2%;21;0;0,4%;37;5;15,2%
+41305-ARNREIT;8;-1;-7,2%;8;-1;-10,8%;16;-2;-9,1%
+41306-ATZESBERG;4;1;34,4%;5;1;33,3%;8;2;33,8%
+41307-AUBERG;2;-1;-34,4%;4;-1;-23,9%;6;-2;-27,3%
+41308-BERG BEI ROHRBACH;20;5;32,2%;25;1;3,8%;45;6;14,5%
+41309-HASLACH AN DER MUEHL;26;8;43,1%;24;3;12,5%;50;10;26,5%
+41310-HELFENBERG;5;0;-4,7%;13;4;38,5%;18;3;22,5%
+41311-HOERBICH;0;-1;-72,7%;2;-1;-27,0%;3;-2;-37,5%
+41312-HOFKIRCHEN IM MUEHLKREIS;12;0;1,4%;15;3;21,8%;27;3;11,7%
+41313-JULBACH;15;5;46,2%;21;2;11,4%;36;7;23,3%
+41314-KIRCHBERG OB DER DONAU;7;1;16,4%;10;1;5,9%;17;2;9,7%
+41315-KLAFFER;11;2;26,2%;19;-3;-14,2%;30;-1;-2,7%
+41316-KLEINZELL IM MUEHLKREIS;7;1;12,5%;14;3;26,2%;20;4;21,3%
+41317-KOLLERSCHLAG;7;-3;-30,4%;14;-2;-10,5%;20;-5;-18,2%
+41318-LEMBACH IM MUEHLKREIS;8;1;21,0%;20;6;39,0%;28;7;33,2%
+41319-LICHTENAU IM MUEHLKREIS;0;-4;-90,2%;5;2;53,7%;6;-2;-26,1%
+41320-NEBELBERG;4;2;126,1%;2;0;-3,6%;7;2;54,9%
+41321-NEUFELDEN;8;3;47,8%;11;-1;-9,3%;19;2;9,2%
+41322-NIEDERKAPPEL;3;0;-8,3%;12;3;32,1%;15;3;22,1%
+41323-NIEDERWALDKIRCHEN;9;-1;-8,5%;11;1;12,5%;20;0;2,1%
+41324-OBERKAPPEL;6;0;6,0%;8;1;14,8%;14;1;10,8%
+41325-OEPPING;9;3;49,3%;20;2;12,3%;28;5;21,4%
+41326-PEILSTEIN IM MUEHLVIERTEL;11;-1;-5,2%;15;4;40,5%;26;4;17,3%
+41327-PFARRKIRCHEN IM MUEHLKREIS;7;-1;-11,4%;17;2;11,6%;23;1;4,1%
+41328-PUTZLEINSDORF;8;-1;-8,3%;15;2;17,1%;23;1;6,5%
+41329-NEUSTIFT IM MUEHLKREIS;12;1;11,0%;9;0;-0,9%;21;1;5,4%
+41330-ROHRBACH IN OBEROESTERREICH;19;1;5,0%;31;9;39,9%;50;10;24,0%
+41331-SANKT JOHANN AM WIMBERG;6;-1;-9,0%;6;-2;-24,1%;11;-2;-17,0%
+41332-SANKT MARTIN IM MUEHLKREIS;29;3;13,4%;31;3;9,5%;60;6;11,4%
+41333-SANKT OSWALD BEI HASLACH;2;-1;-19,4%;5;0;-3,4%;7;-1;-9,5%
+41334-SANKT PETER AM WIMBERG;11;2;17,8%;9;0;0,0%;20;2;8,7%
+41335-SANKT STEFAN AM WALDE;3;-1;-33,3%;5;2;38,3%;8;0;1,0%
+41336-SANKT ULRICH IM MUEHLKREIS;2;-2;-38,3%;8;3;65,6%;11;2;20,4%
+41337-SANKT VEIT IM MUEHLKREIS;7;0;6,8%;7;2;48,3%;14;3;25,4%
+41338-SARLEINSBACH;9;0;0,9%;20;2;8,9%;30;2;6,3%
+41339-SCHLAEGL;9;2;32,5%;10;-3;-21,0%;19;-1;-3,0%
+41340-SCHOENEGG;2;0;-10,3%;3;0;2,8%;5;0;-3,1%
+41341-SCHWARZENBERG IM MUEHLKREIS;3;-1;-18,6%;9;2;27,2%;12;1;11,3%
+41342-ULRICHSBERG;24;-2;-7,2%;43;0;1,0%;67;-1;-2,1%
+Gesamt;369;31;9,2%;556;46;9,1%;925;78;9,2%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Schärding 414;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+41401-ALTSCHWENDT;5;-1;-17,9%;6;-1;-16,3%;11;-2;-17,1%
+41402-ANDORF;55;6;11,6%;80;-2;-2,5%;135;4;2,8%
+41403-BRUNNENTHAL;19;-2;-11,2%;22;1;4,4%;40;-1;-3,4%
+41404-DIERSBACH;10;1;6,1%;19;-1;-3,8%;29;0;-0,6%
+41405-DORF AN DER PRAM;12;4;50,0%;10;2;21,3%;21;6;35,5%
+41406-EGGERDING;13;1;6,4%;12;-2;-15,2%;25;-1;-5,4%
+41407-ENGELHARTSZELL;12;2;22,3%;10;2;18,6%;22;4;20,6%
+41408-ENZENKIRCHEN;16;1;4,3%;31;6;23,4%;47;7;16,1%
+41409-ESTERNBERG;15;1;7,2%;31;1;3,0%;46;2;4,4%
+41410-FREINBERG;11;1;10,3%;13;1;7,5%;24;2;8,7%
+41411-KOPFING IM INNKREIS;14;-2;-12,4%;28;1;3,4%;41;-1;-2,4%
+41412-MAYRHOF;1;0;21,4%;3;1;36,0%;4;1;30,8%
+41413-MUENZKIRCHEN;18;0;0,0%;31;-3;-8,7%;48;-3;-5,7%
+41414-RAAB;24;6;30,5%;35;2;7,0%;59;8;15,6%
+41415-RAINBACH IM INNKREIS;10;1;8,5%;18;2;10,9%;27;3;10,0%
+41416-RIEDAU;25;-3;-10,8%;33;2;5,2%;58;-1;-2,2%
+41417-SANKT AEGIDI;10;1;15,7%;24;2;8,6%;35;3;10,6%
+41418-SANKT FLORIAN AM INN;37;-2;-5,2%;43;0;0,2%;80;-2;-2,3%
+41419-SANKT MARIENKIRCHEN BEI SCHAERDING;19;1;4,0%;23;0;-1,4%;42;0;1,0%
+41420-SANKT ROMAN;13;0;3,4%;21;0;-1,2%;34;0;0,5%
+41421-SANKT WILLIBALD;8;-1;-13,5%;14;-4;-21,9%;22;-5;-19,2%
+41422-SCHAERDING;79;2;2,2%;111;11;11,1%;189;13;7,2%
+41423-SCHARDENBERG;15;-4;-21,4%;23;-2;-8,5%;37;-6;-14,1%
+41424-SIGHARTING;6;2;32,1%;14;0;1,2%;21;2;8,8%
+41425-SUBEN;13;1;10,6%;19;1;2,7%;32;2;5,7%
+41426-TAUFKIRCHEN AN DER PRAM;29;0;-0,3%;45;1;1,1%;74;0;0,6%
+41427-VICHTENSTEIN;6;0;-2,9%;14;3;24,3%;20;3;15,1%
+41428-WALDKIRCHEN AM WESEN;8;-1;-14,8%;14;2;18,1%;21;1;3,7%
+41429-WERNSTEIN AM INN;13;-1;-6,5%;15;1;7,7%;28;0;0,6%
+41430-ZELL AN DER PRAM;21;1;2,9%;23;3;17,4%;44;4;10,1%
+Gesamt;534;12;2,3%;784;27;3,6%;1.318;39;3,1%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Steyr 415;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+40201-STEYR;936;64;7,3%;1.207;79;7,0%;2.143;142;7,1%
+41501-ADLWANG;15;5;49,2%;19;-3;-15,5%;34;2;4,7%
+41502-ASCHACH AN DER STEYR;18;2;14,7%;19;3;19,3%;36;5;17,0%
+41503-BAD HALL;77;-3;-3,9%;88;3;3,2%;165;0;-0,3%
+41504-DIETACH;30;5;21,2%;31;0;-0,5%;60;5;9,0%
+41505-GAFLENZ;15;1;5,9%;14;-5;-24,7%;29;-4;-11,6%
+41506-GARSTEN;53;1;1,1%;74;7;10,5%;127;8;6,4%
+41507-GROSZRAMING;18;2;9,5%;27;4;19,2%;45;6;15,0%
+41508-LAUSSA;10;-2;-15,4%;14;-1;-4,1%;23;-2;-9,1%
+41509-LOSENSTEIN;15;-1;-6,7%;22;1;5,1%;37;0;0,0%
+41510-MARIA NEUSTIFT;14;3;33,9%;13;1;7,5%;27;4;19,5%
+41511-PFARRKIRCHEN BEI BAD HALL;27;7;37,1%;24;0;-1,7%;50;7;15,6%
+41512-REICHRAMING;21;2;9,1%;32;5;19,9%;53;7;15,4%
+41513-ROHR IM KREMSTAL;16;1;6,9%;14;-1;-5,2%;29;0;0,9%
+41514-SANKT ULRICH BEI STEYR;28;7;30,5%;25;-2;-6,9%;53;5;9,8%
+41515-SCHIEDLBERG;8;0;-4,9%;15;1;10,6%;23;1;4,6%
+41516-SIERNING;134;13;11,0%;164;22;15,0%;298;35;13,2%
+41517-TERNBERG;33;0;0,8%;42;6;15,2%;75;6;8,4%
+41518-WALDNEUKIRCHEN;25;2;10,4%;25;3;15,7%;50;6;13,0%
+41521-WOLFERN;22;-2;-9,7%;29;1;4,9%;51;-1;-1,9%
+41522-WEYER;40;3;7,2%;52;2;4,2%;92;5;5,5%
+Gesamt;1.551;109;7,5%;1.949;127;7,0%;3.500;235;7,2%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Vöcklabruck 418;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+41701-AMPFLWANG IM HAUSRUCKWALD;44;2;4,8%;65;5;9,3%;109;8;7,4%
+41702-ATTERSEE;16;0;-1,5%;17;0;1,0%;33;0;-0,2%
+41703-ATTNANG-PUCHHEIM;170;15;9,6%;217;9;4,3%;387;24;6,5%
+41704-ATZBACH;10;4;65,7%;13;3;31,4%;23;7;44,1%
+41705-AURACH AM HONGAR;11;-3;-22,5%;19;3;20,0%;30;0;-0,3%
+41706-BERG IM ATTERGAU;8;1;15,0%;8;-2;-22,9%;15;-1;-7,6%
+41707-DESSELBRUNN;15;2;14,6%;16;2;17,5%;31;4;16,1%
+41708-FORNACH;6;-2;-25,0%;8;0;2,1%;14;-2;-11,2%
+41709-FRANKENBURG AM HAUSRUCK;50;14;36,7%;59;7;13,8%;109;21;23,4%
+41710-FRANKENMARKT;46;9;22,6%;57;0;0,3%;103;9;9,2%
+41711-GAMPERN;17;-4;-17,1%;20;3;16,7%;37;-1;-1,5%
+41712-INNERSCHWAND;8;1;18,4%;8;2;26,7%;15;3;22,5%
+41713-LENZING;60;-1;-1,9%;77;5;7,2%;137;4;3,0%
+41714-MANNING;6;0;-1,4%;8;1;12,2%;14;1;5,8%
+41715-MONDSEE;46;-1;-1,1%;50;9;22,3%;95;9;9,9%
+41716-NEUKIRCHEN AN DER VOECKLA;22;4;25,2%;18;0;-0,5%;40;4;12,3%
+41717-NIEDERTHALHEIM;5;1;13,0%;12;1;12,3%;17;2;12,5%
+41718-NUSZDORF AM ATTERSEE;7;0;-4,7%;12;-1;-7,7%;19;-1;-6,6%
+41719-OBERHOFEN AM IRRSEE;14;2;15,6%;18;4;25,7%;32;6;21,2%
+41720-OBERNDORF BEI SCHWANENSTADT;14;4;44,4%;18;-1;-5,6%;32;3;11,2%
+41721-OBERWANG;9;1;8,4%;17;4;26,8%;26;4;20,1%
+41722-OTTNANG AM HAUSRUCK;38;6;19,7%;52;4;7,2%;90;10;12,2%
+41723-PFAFFING;14;1;10,2%;11;1;14,3%;26;3;12,0%
+41724-PILSBACH;3;0;-3,2%;6;1;23,6%;8;1;14,0%
+41725-PITZENBERG;4;-2;-30,3%;4;1;35,5%;7;-1;-9,3%
+41726-POENDORF;20;1;6,8%;19;-1;-2,5%;39;1;2,0%
+41727-PUCHKIRCHEN AM TRATTBERG;6;-1;-7,5%;11;2;17,2%;18;1;7,1%
+41728-PUEHRET;3;0;0,0%;5;2;61,5%;8;2;34,3%
+41729-REDLEITEN;5;2;55,6%;5;3;107,1%;10;4;78,1%
+41730-REDLHAM;18;6;44,7%;20;4;28,5%;38;10;35,8%
+41731-REGAU;58;-10;-14,7%;74;1;1,6%;132;-9;-6,3%
+41732-RUESTORF;25;4;20,4%;29;5;22,3%;54;10;21,4%
+41733-RUTZENHAM;3;1;55,0%;2;1;58,8%;5;2;56,8%
+41734-SANKT GEORGEN IM ATTERGAU;49;6;13,5%;54;-1;-2,3%;102;5;4,6%
+41735-SANKT LORENZ;22;5;30,5%;27;5;22,8%;49;10;26,1%
+41736-SCHLATT;12;-1;-6,6%;11;-1;-4,2%;23;-1;-5,5%
+41737-SCHOERFLING AM ATTERSEE;34;8;32,3%;40;3;7,4%;74;11;17,6%
+41738-SCHWANENSTADT;64;-2;-2,6%;78;-6;-7,3%;141;-8;-5,2%
+41739-SEEWALCHEN AM ATTERSEE;54;6;11,7%;56;13;28,8%;110;18;19,8%
+41740-STEINBACH AM ATTERSEE;6;-2;-28,4%;5;-1;-20,5%;11;-4;-25,1%
+41741-STRASZ IM ATTERGAU;16;1;7,2%;19;1;5,1%;35;2;6,1%
+41742-TIEFGRABEN;28;6;28,4%;39;3;7,1%;67;9;15,0%
+41743-TIMELKAM;68;3;5,3%;67;1;1,5%;134;4;3,4%
+41744-UNGENACH;12;2;20,3%;12;0;0,7%;24;2;9,6%
+41745-UNTERACH AM ATTERSEE;20;5;35,2%;15;-1;-3,7%;35;5;15,2%
+41746-VOECKLABRUCK;186;25;15,6%;230;0;0,1%;416;26;6,5%
+41747-VOECKLAMARKT;45;-1;-2,0%;63;3;4,6%;108;2;1,7%
+41748-WEISZENKIRCHEN IM ATTERGAU;6;1;29,4%;6;-1;-14,6%;12;0;1,4%
+41749-WEYREGG AM ATTERSEE;13;-2;-13,3%;10;0;0,8%;23;-2;-7,5%
+41750-WOLFSEGG AM HAUSRUCK;23;4;20,9%;31;5;18,2%;54;9;19,3%
+41751-ZELL AM MOOS;10;-2;-12,9%;12;-2;-15,5%;22;-4;-14,3%
+41752-ZELL AM PETTENFIRST;14;4;46,9%;17;1;4,1%;31;5;19,9%
+Gesamt;1.456;125;9,4%;1.766;100;6,0%;3.222;224;7,5%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Wels 419;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+40301-WELS;1.197;186;18,4%;1.622;248;18,1%;2.819;435;18,2%
+41801-AICHKIRCHEN;6;2;47,9%;3;-1;-25,6%;9;1;13,2%
+41802-BACHMANNING;4;-1;-22,0%;9;1;6,8%;13;-1;-3,7%
+41803-BAD WIMSBACH-NEYDHARTING;20;5;34,5%;32;9;37,6%;52;14;36,4%
+41804-BUCHKIRCHEN;23;1;3,7%;33;5;18,3%;57;6;11,8%
+41805-EBERSTALZELL;20;9;79,3%;24;3;15,8%;45;12;37,9%
+41806-EDT BEI LAMBACH;21;5;35,2%;21;6;39,7%;42;11;37,4%
+41807-FISCHLHAM;5;-1;-11,0%;14;1;10,1%;19;1;3,2%
+41808-GUNSKIRCHEN;45;1;1,3%;66;14;27,3%;110;15;15,3%
+41809-HOLZHAUSEN;9;1;7,1%;14;2;16,2%;23;3;12,6%
+41810-KRENGLBACH;25;3;13,9%;31;7;28,9%;56;10;21,8%
+41811-LAMBACH;47;4;10,3%;75;11;16,8%;123;15;14,2%
+41812-MARCHTRENK;160;20;14,0%;211;42;24,9%;371;62;20,0%
+41813-NEUKIRCHEN BEI LAMBACH;6;0;3,0%;10;2;21,2%;16;2;13,9%
+41814-OFFENHAUSEN;16;5;42,9%;23;4;17,9%;39;8;26,9%
+41815-PENNEWANG;9;3;52,7%;4;-1;-23,2%;14;2;16,1%
+41816-PICHL BEI WELS;26;5;23,8%;34;10;39,5%;60;15;32,3%
+41817-SATTLEDT;26;5;22,4%;30;4;14,1%;55;8;17,8%
+41818-SCHLEISZHEIM;12;0;-0,7%;12;3;34,3%;24;3;14,3%
+41819-SIPBACHZELL;15;1;10,6%;17;2;9,7%;32;3;10,1%
+41820-STADL-PAURA;83;23;37,6%;100;10;11,1%;183;33;21,7%
+41821-STEINERKIRCHEN AN DER TRAUN;16;3;21,5%;17;4;32,1%;33;7;26,8%
+41822-STEINHAUS;13;2;12,6%;15;-3;-16,4%;29;-2;-5,0%
+41823-THALHEIM BEI WELS;61;4;6,4%;64;4;5,8%;125;7;6,1%
+41824-WEISZKIRCHEN AN DER TRAUN;28;-1;-4,3%;34;10;39,7%;62;8;15,6%
+Gesamt;1.891;283;17,6%;2.517;395;18,6%;4.408;678;18,2%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
+;;;;;;;;;
+;;;;;;;;;
+;Arbeitslosigkeit;;;;;;;;
+Arbeitslose nach Gemeinden;;;;;;;;;
+Datum:  2014      Region:  Traun (mit ZWS) 421;;;;;;;;;
+Bestand arbeitsloser Personen zum Stichtag;;;;;;;;;
+;;;;;;;;;
+;Frauen;;;Männer;;;Gesamt;;
+;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %;Bestand;Veränderung zum VJ absolut;Veränderung zum VJ in %
+41001-ALLHAMING;13;6;92,6%;18;8;82,1%;31;14;86,4%
+41002-ANSFELDEN;229;29;14,3%;362;57;18,8%;590;86;17,0%
+41003-ASTEN;72;-4;-5,3%;82;-2;-2,6%;155;-6;-3,9%
+41004-EGGENDORF IM TRAUNKREIS;6;2;69,2%;10;2;25,3%;15;4;38,5%
+41005-ENNS;156;20;14,5%;200;18;10,0%;356;38;11,9%
+41006-HARGELSBERG;11;2;20,4%;9;0;-3,8%;19;2;8,4%
+41007-HOERSCHING;55;11;24,1%;86;4;4,7%;141;15;11,5%
+41008-HOFKIRCHEN IM TRAUNKREIS;16;-1;-4,5%;16;2;18,5%;31;2;5,6%
+41009-KEMATEN AN DER KREMS;22;0;1,9%;33;5;17,6%;55;5;10,8%
+41010-KIRCHBERG-THENING;12;-3;-22,3%;17;1;8,5%;29;-2;-6,5%
+41011-KRONSTORF;33;2;6,2%;41;2;6,2%;74;4;6,2%
+41012-LEONDING;277;42;17,7%;386;60;18,5%;664;102;18,2%
+41013-MARKT SANKT FLORIAN;34;3;8,8%;44;8;21,1%;78;10;15,4%
+41014-NEUHOFEN AN DER KREMS;52;10;23,8%;66;8;13,5%;119;18;17,9%
+41015-NIEDERNEUKIRCHEN;14;6;77,7%;14;-2;-12,0%;27;4;18,3%
+41016-OFTERING;10;-7;-39,7%;13;-1;-8,0%;23;-8;-24,9%
+41017-PASCHING;75;12;18,6%;109;16;17,0%;183;27;17,6%
+41018-PIBERBACH;18;8;89,4%;18;1;4,3%;36;9;34,2%
+41019-PUCKING;33;3;10,6%;42;6;17,1%;75;9;14,1%
+41020-SANKT MARIEN;42;13;44,6%;52;13;34,6%;94;26;39,0%
+41021-TRAUN;361;53;17,2%;552;58;11,7%;913;111;13,8%
+41022-WILHERING;29;-2;-5,4%;53;6;12,3%;81;4;5,3%
+Gesamt;1.569;205;15,1%;2.221;270;13,9%;3.790;476;14,3%
+Es werden die aktuellen Gemeindebezeichnungen verwendet.;;;;;;;;;
+ACHTUNG: Rundungsdifferenzen bei Durchschnittswerten möglich!;;;;;;;;;
+AL200 / Würfel: amb/wal200;1;;;;;;;;
