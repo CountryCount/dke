@@ -1,4 +1,4 @@
-package main.java;
+package unemployment;
 
 import java.util.LinkedList;
 import java.util.List;
