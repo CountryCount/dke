@@ -10,9 +10,12 @@ public class DataUploader
 {
     public static void uploadRdf()
     {
+        String serviceUri = "http://localhost:3030/unemployed";
+
+        System.out.println("Updating the data of the Fuseki server: " + serviceUri);
+
         try
         {
-            String serviceUri = "http://localhost:3030/unemployed";
             DatasetAccessor accessor = DatasetAccessorFactory.createHTTP(serviceUri);
             String path = Main.class.getResource("/resources/population.rdf").getFile();
             FileManager.get().addLocatorClassLoader(Main.class.getClassLoader());
@@ -22,7 +25,7 @@ public class DataUploader
         }
         catch(Exception ex)
         {
-            System.err.println("Beim Update auf den Fuseki Server ist ein Fehler aufgetreten! " + ex.getMessage());
+            System.err.println("Could not connect to the Fuseki server to update the data: " + serviceUri + "\n\t*"+ex.getMessage());
         }
     }
 }

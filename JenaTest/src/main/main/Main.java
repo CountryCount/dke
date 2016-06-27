@@ -1,38 +1,22 @@
 package main;
 
-import org.apache.jena.graph.Graph;
-import org.apache.jena.propertytable.graph.GraphCSV;
-import org.apache.jena.propertytable.lang.CSV2RDF;
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Resource;
-import org.apache.jena.util.FileManager;
-import unemployment.Commune;
 import unemployment.Converter;
 import unemployment.DataUploader;
-import unemployment.PopulationYear;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 public class Main
 {
     public static void main(String[] args) throws IOException
     {
         Configuration.init();
+        System.out.println();
         Converter.convertCSV();
+        System.out.println();
         DataUploader.uploadRdf();
-        selectRdf();
-        //convertCSV();
-        //testRdf();
-        //uploadRdf();
+        System.out.println();
         //selectRdf();
     }
 
@@ -40,7 +24,16 @@ public class Main
     {
         String serviceUri = "http://localhost:3030/unemployed";
         DatasetAccessor accessor = DatasetAccessorFactory.createHTTP(serviceUri);
-        Model model = accessor.getModel();
+        Model model = null;
+        try
+        {
+            model = accessor.getModel();
+        }
+        catch(Exception ex)
+        {
+            System.err.println("Could not connect to the Fuseki server to select data: " + serviceUri);
+            return;
+        }
 
         String sumQueryStr = "" +
                 "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
@@ -85,7 +78,7 @@ public class Main
                         );
             }
 
-            System.out.println("Gesamt: " + i);
+            System.out.println("Total: " + i);
         }
         catch(Exception ex)
         {

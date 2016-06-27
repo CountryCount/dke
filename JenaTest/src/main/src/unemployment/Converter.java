@@ -25,6 +25,8 @@ public class Converter
         final String csvPath = Main.class.getResource("/resources/arbeitslose_"+year+".csv").getFile().substring(1);
         int lineNr = 0;
 
+        System.out.println("Reading unemployment data: " + csvPath + " ...");
+
         for(String line : Files.readAllLines(Paths.get(csvPath)))
         {
             lineNr++;
@@ -52,6 +54,8 @@ public class Converter
             }
         }
 
+        System.out.println(lineNr + " lines have been converted");
+
         return communes.values().stream().collect(Collectors.toList());
     }
 
@@ -64,6 +68,8 @@ public class Converter
         final int COL_YEAR = 3;
         final int COL_POPTOTAL = 4;
         final String csvPath = Main.class.getResource("/resources/population.csv").getFile().substring(1);
+
+        System.out.println("Reading population data: " + csvPath + " ...");
 
         final Map<String, Commune> communes = new HashMap<>();
         int lineNr = -1;
@@ -91,11 +97,15 @@ public class Converter
             }
         }
 
+        System.out.println(lineNr + " lines have been converted");
+
         return communes;
     }
 
     public static void convertCSV() throws IOException
     {
+        System.out.println("Converting ...");
+
         final String GEMEINDEN_URI = "http://jku.at/gemeinden";
         final String GEMEINDE_URI = "http://jku.at/gemeinden/gemeinde";
         final String LAU2_CODE_URI = "http://jku.at/gemeinden/lau2code";
