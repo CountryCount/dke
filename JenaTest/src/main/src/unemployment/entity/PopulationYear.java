@@ -1,4 +1,4 @@
-package unemployment;
+package unemployment.entity;
 
 public final class PopulationYear
 {

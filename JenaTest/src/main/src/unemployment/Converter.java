@@ -1,9 +1,11 @@
 package unemployment;
 
+import main.Configuration;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
-import main.Main;
+import unemployment.entity.Commune;
+import unemployment.entity.PopulationYear;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -22,12 +24,12 @@ public class Converter
         final int COL_LAU2CODE_AND_LAU2NAME = 0;
         final int COL_UNEMPLOYED_W = 1;
         final int COL_UNEMPLOYED_M = 4;
-        final String csvPath = Main.class.getResource("/resources/arbeitslose_"+year+".csv").getFile().substring(1);
+        final String csvPath = Configuration.buildPopulationYearFilePath(year);
         int lineNr = 0;
 
         System.out.println("Reading unemployment data: " + csvPath + " ...");
 
-        for(String line : Files.readAllLines(Paths.get(csvPath)))
+        for (String line : Files.readAllLines(Paths.get(csvPath)))
         {
             lineNr++;
             try
@@ -37,18 +39,18 @@ public class Converter
                 String[] cols = line.split(CSV_DELIMINATOR);
                 String lau2code = cols[COL_LAU2CODE_AND_LAU2NAME].split("-")[0];
                 String lau2name = cols[COL_LAU2CODE_AND_LAU2NAME].split("-")[1];
-                int unemployedW = Integer.parseInt(cols[COL_UNEMPLOYED_W].replace(".",""));
-                int unemployedM = Integer.parseInt(cols[COL_UNEMPLOYED_M].replace(".",""));
+                int unemployedW = Integer.parseInt(cols[COL_UNEMPLOYED_W].replace(".", ""));
+                int unemployedM = Integer.parseInt(cols[COL_UNEMPLOYED_M].replace(".", ""));
 
                 Commune c = communes.get(lau2code);
-                if(c == null) continue;
+                if (c == null) continue;
                 c.getYears().stream().filter(py -> py.getYear() == year).forEach(py ->
                 {
                     py.setWUnemployed(unemployedW);
                     py.setMUnemployed(unemployedM);
                 });
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 System.out.println("Failed to parse line " + lineNr + ": " + ex.getMessage());
             }
@@ -67,7 +69,7 @@ public class Converter
         final int COL_LAU2NAME = 2;
         final int COL_YEAR = 3;
         final int COL_POPTOTAL = 4;
-        final String csvPath = Main.class.getResource("/resources/population.csv").getFile().substring(1);
+        final String csvPath = Configuration.buildPopulationFilePath();
 
         System.out.println("Reading population data: " + csvPath + " ...");
 
@@ -121,7 +123,7 @@ public class Converter
         model.setNsPrefix("gemeinden",GEMEINDEN_URI+"/");
         Map<String,Commune> communeMap = readCommunes();
 
-        for(int i = 2004; i <= 2014; i++)
+        for(int i = Configuration.UNEMPLOYED_FROM_YEAR; i <= Configuration.UNEMPLOYED_TO_YEAR; i++)
             readPopulationYears(i, communeMap);
 
         Resource root = model.createResource(GEMEINDEN_URI);
@@ -146,8 +148,7 @@ public class Converter
             root.addProperty(model.createProperty(GEMEINDE_URI), communeResource);
         }
 
-        String path = Main.class.getResource("/resources/population.rdf").getFile();
-        FileOutputStream fs = new FileOutputStream(path);
+        FileOutputStream fs = new FileOutputStream(Configuration.GENERATED_RDF_FILE);
         model.write(fs);
         fs.flush();
         fs.close();

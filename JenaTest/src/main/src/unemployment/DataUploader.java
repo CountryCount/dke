@@ -1,24 +1,24 @@
 package unemployment;
 
+import main.Configuration;
+import main.Main;
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.util.FileManager;
-import main.Main;
 
 public class DataUploader
 {
     public static void uploadRdf()
     {
-        String serviceUri = "http://localhost:3030/unemployed";
+        String serviceUri = Configuration.FUSEKI_SERVICE_URL;
 
         System.out.println("Updating the data of the Fuseki server: " + serviceUri);
 
         try
         {
             DatasetAccessor accessor = DatasetAccessorFactory.createHTTP(serviceUri);
-            String path = Main.class.getResource("/resources/population.rdf").getFile();
             FileManager.get().addLocatorClassLoader(Main.class.getClassLoader());
-            Model model = FileManager.get().loadModel(path);
+            Model model = FileManager.get().loadModel(Configuration.GENERATED_RDF_FILE);
 
             accessor.putModel(model);
             selectRdf();
@@ -31,7 +31,7 @@ public class DataUploader
 
     public static void selectRdf()
     {
-        String serviceUri = "http://localhost:3030/unemployed";
+        String serviceUri = Configuration.FUSEKI_SERVICE_URL;
         DatasetAccessor accessor = DatasetAccessorFactory.createHTTP(serviceUri);
         Model model = accessor.getModel();
 

@@ -1,4 +1,4 @@
-package unemployment;
+package unemployment.entity;
 
 import java.util.LinkedList;
 import java.util.List;
