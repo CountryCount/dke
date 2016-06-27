@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d59431-68b7-4d16-9023-5d3ae3b733cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/main/Configuration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/main/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/src/unemployment/DataUploader.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/java/Commune.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/java/PopulationYear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2004.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2005.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2006.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2007.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2008.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2009.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2010.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2011.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2012.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2013.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/arbeitslose_2014.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/data.rdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/pop.rdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/resources/population.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JenaTest/main/test/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/main/src/Commune.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/main/src/PopulationYear.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/data.rdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/pop.rdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/test/Main.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JenaTest.iml" afterPath="$PROJECT_DIR$/JenaTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2004.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2004.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2005.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2005.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2006.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2006.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2007.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2007.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2008.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2008.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2009.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2009.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2010.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2010.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2011.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2011.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2012.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2012.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2013.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2013.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/arbeitslose_2014.csv" afterPath="$PROJECT_DIR$/src/main/resources/arbeitslose_2014.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/main/Configuration.java" afterPath="$PROJECT_DIR$/src/main/main/Configuration.java" />
     </list>
     <ignored path="JenaTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/main/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.25849336">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,8 +135,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3229" />
-    <option name="y" value="-11" />
+    <option name="x" value="3196" />
+    <option name="y" value="209" />
     <option name="width" value="2902" />
     <option name="height" value="1582" />
   </component>
@@ -749,7 +712,7 @@
     </configuration>
     <configuration default="false" name="RDF" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -785,15 +748,15 @@
       <workItem from="1466949441410" duration="25000" />
       <workItem from="1467021055039" duration="8291000" />
       <workItem from="1467035993146" duration="1826000" />
-      <workItem from="1467043817331" duration="7639000" />
+      <workItem from="1467043817331" duration="8312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64766000" />
+    <option name="totallyTimeSpent" value="65439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3229" y="-11" width="2902" height="1582" extended-state="6" />
+    <frame x="3196" y="209" width="2902" height="1582" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1204,7 +1167,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/main/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25849336">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

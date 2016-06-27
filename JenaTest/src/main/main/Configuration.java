@@ -12,6 +12,6 @@ public class Configuration
 
     public static void init()
     {
-        
+
     }
 }
