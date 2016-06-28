@@ -26,11 +26,7 @@
       <root url="jar://$PROJECT_DIR$/lib/httpclient-cache-4.2.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/libthrift-0.9.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/lib/jena-arq-3.1.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/lib/jena-arq-3.1.0-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

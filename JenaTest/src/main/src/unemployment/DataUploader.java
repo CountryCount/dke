@@ -1,7 +1,6 @@
 package unemployment;
 
 import main.Configuration;
-import main.Main;
 import org.apache.jena.query.*;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.util.FileManager;
@@ -13,11 +12,9 @@ public class DataUploader
         String serviceUri = Configuration.FUSEKI_SERVICE_URL;
 
         System.out.println("Updating the data of the Fuseki server: " + serviceUri);
-
         try
         {
             DatasetAccessor accessor = DatasetAccessorFactory.createHTTP(serviceUri);
-            FileManager.get().addLocatorClassLoader(Main.class.getClassLoader());
             Model model = FileManager.get().loadModel(Configuration.GENERATED_RDF_FILE);
 
             accessor.putModel(model);
@@ -26,6 +23,7 @@ public class DataUploader
         catch(Exception ex)
         {
             System.err.println("Could not connect to the Fuseki server to update the data: " + serviceUri + "\n\t*"+ex.getMessage());
+            ex.printStackTrace();
         }
     }
 
